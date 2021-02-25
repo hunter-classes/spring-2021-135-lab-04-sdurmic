@@ -3,6 +3,7 @@
 #include "checkerboard.h"
 #include "cross.h"
 #include "lower.h"
+#include "upper.h"
 
 int main()
 {
@@ -17,6 +18,9 @@ int main()
     std::cout << "\n------------------\n";
     std::cout << "lower(8):\n";
     std::cout << lower(8);
+    std::cout << "\n------------------\n";
+    std::cout << "upper(7):\n";
+    std::cout << upper(7);
     std::cout << "\n------------------\n";
 
     return 0;
