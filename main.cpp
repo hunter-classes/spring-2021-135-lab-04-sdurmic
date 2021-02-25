@@ -1,11 +1,13 @@
 #include <iostream>
 #include "box.h"
+#include "checkerboard.h"
 
 int main()
 {
-    std::string result;
-    result = box(4,7);
     std::cout << "box(4,7):\n";
-    std::cout << result;
+    std::cout << box(4,7);
+    std::cout << "\n------------------\n";
+    std::cout << "checkerboard(6,8):\n";
+    std::cout << checkerboard(6,8);
     std::cout << "\n------------------\n";
 }
