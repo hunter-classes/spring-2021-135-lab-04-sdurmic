@@ -1,18 +1,20 @@
 #include <iostream>
+#include "checkerboard.h"
 using namespace std;
 
 string checkerboard(int width, int height)
 {
-    for (int row = 0; row < height; row++) 
+    string row = "";
+    for(int i = 0; i < height; i++) 
     {
-        for (int col = 0; col < width; col++) 
+        for(int j = 0; j < width; j++) 
         {
-        if((row+col)%2==0)
-            cout << "*";
+        if((i + j) % 2 == 0)
+            row += "*";
         else
-            cout << " ";
+            row += " ";
         }
-        cout << endl;
+        row += "\n";
     }
-    return 0;
+    return row;
 }
