@@ -5,6 +5,7 @@
 #include "lower.h"
 #include "upper.h"
 #include "trapezoid.h"
+#include "checkerboard3x3.h"
 
 int main()
 {
@@ -28,6 +29,9 @@ int main()
     std::cout << "\n------------------\n";
     std::cout << "trapezoid(8,3):\n";
     std::cout << trapezoid(8,3);
+    std::cout << "\n------------------\n";
+    std::cout << "checkerboard3x3(16,11):\n";
+    std::cout << checkerboard3x3(16,11);
     std::cout << "\n------------------\n";
 
     return 0;
